@@ -1,0 +1,12 @@
+D:\Coding\Programy\UnitConverter.Logic\bin\Debug\net5.0\UnitConverter.Logic.deps.json
+D:\Coding\Programy\UnitConverter.Logic\bin\Debug\net5.0\UnitConverter.Logic.dll
+D:\Coding\Programy\UnitConverter.Logic\bin\Debug\net5.0\ref\UnitConverter.Logic.dll
+D:\Coding\Programy\UnitConverter.Logic\bin\Debug\net5.0\UnitConverter.Logic.pdb
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.csprojAssemblyReference.cache
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.AssemblyInfoInputs.cache
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.AssemblyInfo.cs
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.csproj.CoreCompileInputs.cache
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.dll
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\ref\UnitConverter.Logic.dll
+D:\Coding\Programy\UnitConverter.Logic\obj\Debug\net5.0\UnitConverter.Logic.pdb

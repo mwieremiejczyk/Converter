@@ -1,0 +1,42 @@
+﻿<Window x:Class="Units.Converter.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Units.Converter.Desktop"
+        mc:Ignorable="d"
+        Title="Konwerter" Height="482" Width="476" Visibility="Visible" Background="#FF7EA5EA">
+    <Grid Height="463" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="460*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label Content="Podaj Liczbę: " HorizontalAlignment="Left" Margin="29,55,0,0" VerticalAlignment="Top" Height="27" Width="118" FontWeight="Bold"/>
+        <Button x:Name="GO" Content="Konwertuj" HorizontalAlignment="Left" Margin="29,355,0,0" VerticalAlignment="Top" Height="52" Width="142" FontWeight="Bold" FontSize="16" Click="Button_Click" Background="#FF42A00C"/>
+        <TextBox x:Name="InputTextBox" HorizontalAlignment="Left" Margin="111,59,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="17" Background="White"/>
+        <TextBlock x:Name="OutputTextBlock" HorizontalAlignment="Left" Margin="272,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" Foreground="Black" Height="39" Background="#FFD4E0EA" FontSize="16"/>
+        <Button x:Name="B1" Content="Button3" HorizontalAlignment="Left" Margin="82,142,0,0" VerticalAlignment="Top" Height="53" Width="149" Click="B1_Click"/>
+        <Button x:Name="B2" Content="Button" HorizontalAlignment="Left" Margin="82,200,0,0" VerticalAlignment="Top" Height="53" Width="148" Click="B2_Click"/>
+        <Button x:Name="B3" Content="Button" HorizontalAlignment="Left" Margin="81,258,0,0" VerticalAlignment="Top" Height="53" Width="149" Click="B3_Click"/>
+        <Button x:Name="B4" Content="Button" HorizontalAlignment="Left" Margin="266,142,0,0" VerticalAlignment="Top" Height="53" Width="149" Click="B4_Click"/>
+        <Button x:Name="B5" Content="Button" HorizontalAlignment="Left" Margin="266,200,0,0" VerticalAlignment="Top" Height="53" Width="148" Click="B5_Click"/>
+        <Button x:Name="B6" Content="Button" HorizontalAlignment="Left" Margin="265,258,0,0" VerticalAlignment="Top" Height="53" Width="149" Click="B6_Click"/>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Margin="29,20,0,0" VerticalAlignment="Top" Width="163" RenderTransformOrigin="0.5,0.5" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Label x:Name="LabelIN" Content="Z Jednostki:" HorizontalAlignment="Left" Margin="81,118,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label x:Name="LabelOUT" Content="Do Jednostki:" HorizontalAlignment="Left" Margin="266,118,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label x:Name="LabeLResult" Content="Wynik:" HorizontalAlignment="Left" Margin="272,342,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="Test" Content="Button" HorizontalAlignment="Left" Margin="340,67,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Test2" Content="Button" HorizontalAlignment="Left" Margin="395,69,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Test3" Content="Button" HorizontalAlignment="Left" Margin="395,40,0,0" VerticalAlignment="Top" Background="#FFDDDDDD"/>
+
+
+    </Grid>
+</Window>

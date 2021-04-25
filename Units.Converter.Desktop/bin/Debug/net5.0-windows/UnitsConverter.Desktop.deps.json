@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UnitsConverter.Desktop/1.0.0": {
+        "dependencies": {
+          "UnitConverter.Logic": "1.0.0"
+        },
+        "runtime": {
+          "UnitsConverter.Desktop.dll": {}
+        }
+      },
+      "UnitConverter.Logic/1.0.0": {
+        "runtime": {
+          "UnitConverter.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnitsConverter.Desktop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnitConverter.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
